@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Curling Game</title>
+	</head>
+	<body>
+		<input type='button' value='Join Red' onClick='handleJoinRed()'>
+		<input type='button' value='Join Blue' onClick='handleJoinBlue()'>
+		<input type='button' value='Disconnect' onClick='handleDisconnect()'>
+		<div></div>
+		<input type='text' id='textField' size = '40'/>
+		<p id='messageArea'>Socket has not connected</p>
+		<div id='svg'></div>
+		<script src='/socket.io/socket.io.js'></script>
+		<script src='svg.min.js'></script>
+		<script src='game_script.js'></script>
+	</body>
+</html>
